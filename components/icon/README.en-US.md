@@ -61,8 +61,8 @@ module.exports = {
 ```vue
 <template>
   <div>
-    <md-icon name="hello"></md-icon>
-    <md-icon name="world"></md-icon>
+    <md-icon name="hello" :svg="true"></md-icon>
+    <md-icon name="world" :svg="true"></md-icon>
   </div>
 </template>
 
